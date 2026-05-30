@@ -11,8 +11,9 @@ import {
 
 import {
   FaLinkedinIn,
-  FaInstagram,
-  FaGithub,
+  FaWhatsapp,
+  FaEnvelope,
+  FaMapMarkerAlt,
 } from 'react-icons/fa'
 
 const smoothEase: [number, number, number, number] = [
@@ -39,16 +40,22 @@ const fieldVariants: Variants = {
 
 const socialLinks = [
   {
-    title: 'Instagram',
-    user: '@cindyanggraeni',
-    icon: FaInstagram,
-    link: 'https://www.instagram.com/cindyanggraeni',
+    title: 'WhatsApp',
+    user: '+6283826137590',
+    icon: FaWhatsapp,
+    link: 'https://wa.me/6283826137590',
   },
   {
-    title: 'Github',
-    user: '@cindyanggraeni',
-    icon: FaGithub,
-    link: 'https://github.com/cindyanggraeni',
+    title: 'Email',
+    user: 'cindyanggraeni133@gmail.com',
+    icon: FaEnvelope,
+    link: 'mailto:cindyanggraeni133@gmail.com',
+  },
+  {
+    title: 'Location',
+    user: 'Batam, Kepulauan Riau',
+    icon: FaMapMarkerAlt,
+    link: '#',
   },
 ]
 
@@ -191,7 +198,7 @@ export default function ContactForm() {
 
             <div>
               <p className="text-sm font-medium">LinkedIn</p>
-              <p className="text-xs text-white/35">@linkedin</p>
+              <p className="text-xs text-white/35">Cindy Anggraeni</p>
             </div>
           </div>
 

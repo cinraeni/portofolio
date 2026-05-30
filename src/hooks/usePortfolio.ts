@@ -34,10 +34,10 @@ const staticProjects = [
     id: 'verdant',
     title: 'Verdant — Platform Booking Ticket Wisata',
     description:
-      'Aplikasi booking tiket tempat wisata secara digital. Desain UI/UX, interactive prototype, dan implementasi antarmuka mobile. Project Massive MSIB - Infinite Learning.',
+      'Verdant adalah platform pemesanan tiket wisata digital yang mempermudah wisatawan dalam mencari dan membeli tiket destinasi favorit. Dibangun sepenuhnya menggunakan bahasa pemrograman Kotlin untuk Android, aplikasi ini menawarkan antarmuka yang intuitif dan ramah pengguna. Verdant dilengkapi dengan fitur pencarian wisata cerdas, sistem pembayaran tiket secara online dengan E-Ticket berbasis QR Code, dan integrasi peta untuk menemukan lokasi secara akurat. Proyek ini dikembangkan secara kolaboratif sebagai bagian dari Project Massive MSIB - Infinite Learning untuk mendigitalisasi sektor pariwisata.',
     image_url: '/assets/verdant.png',
     live_url: '',
-    created_at: '2024-09-01',
+    created_at: '2024-12-01',
   },
   {
     id: 'clarity',
